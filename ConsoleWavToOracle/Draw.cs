@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using Oracle.ManagedDataAccess.Client;
 
@@ -40,8 +40,8 @@ class Program
                         using (OracleCommand insertCommand = con.CreateCommand())
                         {
                             insertCommand.Transaction = transaction;
-                            insertCommand.CommandText = "INSERT INTO test.SPR_SPEECH_TABLE (S_INCKEY, S_TYPE, S_PRELOOKED, S_DATETIME, S_DEVICEID/*, S_DURATION*/) " +
-                                                        "VALUES (:S_INCKEY, :S_TYPE, :S_PRELOOKED, :S_DATETIME, :S_DEVICEID/*, :S_DURATION*/)";
+                            insertCommand.CommandText = "INSERT INTO test.SPR_SPEECH_TABLE (S_INCKEY, S_TYPE, S_PRELOOKED, S_DATETIME, S_DEVICEID) " +
+                                                        "VALUES (:S_INCKEY, :S_TYPE, :S_PRELOOKED, :S_DATETIME, :S_DEVICEID)";
 
                             insertCommand.Parameters.Add(":S_INCKEY", OracleDbType.Int32).Value = key;
                             insertCommand.Parameters.Add(":S_TYPE", OracleDbType.Int32).Value = 0;
@@ -74,4 +74,4 @@ class Program
             con.Close();
         }
     }
-}
+}*/

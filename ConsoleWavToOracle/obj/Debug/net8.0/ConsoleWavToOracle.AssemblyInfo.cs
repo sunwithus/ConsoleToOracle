@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleWavToOracle")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e6dd5f8d95e90ec719104153432d52f91c44932")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsoleWavToOracle")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsoleWavToOracle")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
